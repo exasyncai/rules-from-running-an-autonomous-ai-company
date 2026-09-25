@@ -1,0 +1,22 @@
+name: Correction
+description: A rule is wrong, unclear, contradicts another rule, or a document has an error
+title: "[correction] "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      placeholder: "RULES.md, R17"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested wording

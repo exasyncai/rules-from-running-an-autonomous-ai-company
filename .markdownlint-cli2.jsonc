@@ -1,0 +1,12 @@
+{
+  // Light configuration: catch broken structure, not style preferences.
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD024": false,
+    "MD033": false,
+    "MD036": false,
+    "MD041": false
+  },
+  "ignores": ["node_modules", ".git"]
+}

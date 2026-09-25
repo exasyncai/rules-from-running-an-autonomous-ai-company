@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or disclosure report
+    url: https://github.com/ExasyncOU/rules-from-running-an-autonomous-ai-company/blob/main/SECURITY.md
+    about: Please report disclosed secrets or personal data by email, not in a public issue.

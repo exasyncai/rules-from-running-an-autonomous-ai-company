@@ -1,0 +1,36 @@
+name: Rule proposal
+description: Propose a new rule or an extension to an existing one
+title: "[rule] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: incident
+    attributes:
+      label: The incident
+      description: What happened, when (month and year is enough), and what it cost. Rules here are born from incidents; a proposal without one is not accepted.
+    validations:
+      required: true
+  - type: textarea
+    id: obvious
+    attributes:
+      label: Why the obvious fix was not enough
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: Proposed rule
+      description: What is required now, what is forbidden.
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Truth lives in one place
+        - Change only what is broken
+        - A run that produced nothing is a failure
+        - Learn once, apply forever
+        - Some things an agent never does alone
+        - New theme
