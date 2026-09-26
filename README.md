@@ -11,7 +11,7 @@ This repository is that rulebook, stripped of everything customer-specific. What
 Nothing to install. Copy the rules you need into the instruction file your agent reads at session start (`CLAUDE.md`, `.cursorrules`, `AGENTS.md` or similar), or clone the repository and link it:
 
 ```
-git clone https://github.com/ExasyncOU/rules-from-running-an-autonomous-ai-company.git
+git clone https://github.com/exasyncai/rules-from-running-an-autonomous-ai-company.git
 ```
 
 ## What you have after 2 minutes
