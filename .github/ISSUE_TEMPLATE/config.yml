@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security or disclosure report
-    url: https://github.com/exasyncai/rules-from-running-an-autonomous-ai-company/blob/main/SECURITY.md
-    about: Please report disclosed secrets or personal data by email, not in a public issue.
+  - name: Security report
+    url: https://github.com/exasyncai/rules-from-running-an-autonomous-ai-company/security/advisories/new
+    about: Report a vulnerability privately to the maintainers. Never in a public issue.
+  - name: Question
+    url: https://github.com/exasyncai/rules-from-running-an-autonomous-ai-company/discussions
+    about: Ask how something works or whether it fits your setup.
